@@ -1,0 +1,17 @@
+{
+  "films": [
+    {
+      "Title":"Star Wars: Episode IV - A New Hope",
+      "Year":"1977",
+      "Genre":"Action, Adventure, Fantasy, Sci-Fi",
+      "Type":"serie"
+    },
+    {
+      "Title":"Star Wars: Episode V - The Empire Strikes Back",
+      "Year":"1980",
+      "Genre":"Action, Adventure, Fantasy, Sci-Fi",
+      "Type":"movie"
+    }
+  ],
+  "total": "10"
+}
