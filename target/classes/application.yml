@@ -1,0 +1,25 @@
+
+## application informations
+info:
+  app:
+    name: Films service application
+    description: Microservice FILM-SERVICE
+    version: 1.0.0
+
+server:
+  port: 1010
+  servlet:
+    context-path: /crud-api
+ 
+
+## h2 settings
+spring:
+  datasource:
+    url: jdbc:h2:./database/samspledb;AUTO_SERVER=TRUE
+    driverClassName: org.h2.Driver
+  jpa:
+    hibernate:
+      format_sql: 'true'
+      ddl-auto: create-drop
+    show-sql: 'true'
+ 
